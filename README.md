@@ -4,7 +4,7 @@ A repository for my adventures with the free [scrimba](https://scrimba.com) onli
 
 In this course you build interactive, database-powered projects while learning how to write effective prompts and debug and refine your code with the help of AI. No coding experience needed!
 
-I will store my projects from trh 3 phases of this course below 👇 
+I will store my projects from the 3 phases of this course below 👇 
 
 **Phase 1️⃣**
 
