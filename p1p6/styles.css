@@ -1,0 +1,141 @@
+/* General Reset */
+body, h1, h2, h3, p, label, input, select, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background image properties */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+  line-height: 1.5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* Header Styles */
+header {
+  background-color: #f07167; /* Vibrant coral background */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #fff; /* White text */
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #00afb9; /* Turquoise subheading */
+}
+
+h3 {
+  color: #00afb9;   
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Main Content Styles */
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 20px; /* Increased spacing between form elements */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid #00afb9; /* Turquoise border */
+}
+
+button {
+  width: 100%;
+  background-color: #00afb9; /* Turquoise button */
+  color: #fff;
+  padding: 12px 24px; /* Increased padding */
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #008b8f; /* Darker turquoise on hover */
+}
+
+/* Confirmation Message */
+#confirmationMessage {
+  display: none; /* Initially hidden */
+  background-color: #4CAF50; /* Vibrant green background */
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2rem;
+  }
+
+  h2 {
+      font-size: 1.3rem;
+  }
+
+  p {
+      font-size: 0.9rem;
+  }
+
+  input[type="email"],
+  select {
+    font-size: 14px;
+  }
+
+  button[type="submit"] {
+    font-size: 14px;
+  }
+
+  #confirmation-message {
+    font-size: 14px;
+  }
+}
+
