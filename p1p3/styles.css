@@ -1,0 +1,61 @@
+/* Reset some default browser styles */
+body, h1, h2, p, a img {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply styles to the hero section */
+.hero {
+  background-color: #f4f1e9; /* Earthy background color */
+  color: #333; /* Neutral text color */
+  padding: 100px 20px; /* Padding around the content */
+  text-align: center; /* Center-align content */
+}
+
+/* Style the hero image */
+.hero-image {
+  width: 180px; /* Set width of the image */
+  border-radius: 50%; /* Make image rounded */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add soft shadow */
+  margin-bottom: 20px; /* Space below the image */
+}
+
+/* Style the hero heading */
+.hero-heading {
+  font-family: 'Rubik', sans-serif; /* Apply Rubik font */
+  font-size: 58px; /* Large font size for main heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Style the hero subheading */
+.hero-subheading {
+  font-size: 1.8em; /* Medium font size for subheading */
+  margin-bottom: 15px; /* Space below the subheading */
+  color: #84412f;
+}
+
+/* Style the hero description */
+.hero-description {
+  font-size: 18px; /* Regular font size for description */
+  color: #777777;
+  line-height: 1.4;;
+  margin-bottom: 40px; /* Space below the description */
+}
+
+/* Style the call to action button */
+.cta-button {
+  display: inline-block; /* Make it inline with text */
+  background-color: #8c7a6e; /* Subdued hue for button background */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 24px;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the button */
+.cta-button:hover {
+  background-color: #6c5a4e; /* Darker background color on hover */
+}
