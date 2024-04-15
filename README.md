@@ -8,7 +8,7 @@ I will store my projects from trh 3 phases of this course below 👇
 
 **Phase 1️⃣**
 
-P1P2 (Phase 1 Project 2) [Login Buttons]
+P1P2 (Phase 1 Project 2) [Login Buttons](https://thebimsider.github.io/AICoding/p1p2/)
 
 **Phase 2️⃣**
 
