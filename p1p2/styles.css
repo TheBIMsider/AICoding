@@ -1,0 +1,51 @@
+/* Center the buttons horizontally */
+.button-container {
+  display: flex;           /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  margin-top: 30px;        /* Add space above the buttons */
+}
+
+/* Common styles for the login buttons */
+.login-button {
+  color: white;            /* White text color */
+  border: none;            /* Remove default button border */
+  padding: 15px 25px;      /* Padding inside the button */
+  font-size: 16px;         /* Font size */
+  cursor: pointer;         /* Cursor on hover */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+}
+
+/* Style for the Twitter login button */
+.twitter-button {
+  background-color: #1DA1F2; /* Twitter blue background color */
+  border-radius: 25px;       /* Rounded corners */
+  margin-right: 10px;        /* Add some space between buttons */
+}
+
+/* Hover effect for the Twitter button */
+.twitter-button:hover {
+  background-color: #0C84D2; /* Darker blue on hover */
+}
+
+/* Click effect for the Twitter button */
+.twitter-button:active {
+  background-color: #1565C0; /* Brighter blue on click */
+  border: 5px solid #ccc;    /* 5px light gray outline on click */
+}
+
+/* Style for the GitHub login button */
+.github-button {
+  background-color: #333;     /* Black background color */
+  border-radius: 5px;        /* Square corners */
+}
+
+/* Hover effect for the GitHub button */
+.github-button:hover {
+  background-color: #555;     /* Darker black on hover */
+}
+
+/* Click effect for the GitHub button */
+.github-button:active {
+  background-color: #777;     /* Brighter black on click */
+  border: 5px solid #ccc;     /* 5px light gray outline on click */
+}
