@@ -1,0 +1,62 @@
+## Prompt 1
+Your task is to build a drum kit app using HTML, CSS, and JavaScript.
+Start with one button representing a drum sound: kick. 
+Center the button in the middle of the screen. 
+When the button is clicked, the kick drum sound should play.
+
+I have provided you with a "kick.wav" file for the drum sound in a "sounds" folder.
+Use an audio element in the HTML to pre-load the sound file. 
+
+Remember to add comments to your HTML and JavaScript code to help me understand
+what each part is doing.
+
+## Prompt 2
+Extend the drum kit app by triggering the "kick" sound when the "a" keyboard key is pressed.
+
+## Prompt 3
+Please update this JavaScript code so that it’s more concise and maintainable:
+
+###
+// Drum buttons and audio elements
+const drumButtons = [
+  { id: 'kickButton', key: 'a', soundId: 'kickSound' },
+  { id: 'rideButton', key: 's', soundId: 'rideSound' },
+  { id: 'boomButton', key: 'd', soundId: 'boomSound' },
+  { id: 'clapButton', key: 'q', soundId: 'clapSound' },
+  { id: 'hihatButton', key: 'w', soundId: 'hihatSound' },
+  { id: 'openhatButton', key: 'e', soundId: 'openhatSound' },
+  { id: 'snareButton', key: 'z', soundId: 'snareSound' },
+  { id: 'tinkButton', key: 'x', soundId: 'tinkSound' },
+  { id: 'tomButton', key: 'c', soundId: 'tomSound' },
+];
+
+// Function to play sound
+function playSound(soundId) {
+  const audio = document.getElementById(soundId);
+  audio.currentTime = 0; // Rewind to the start
+  audio.play();
+}
+
+// Add click event listeners to drum buttons
+drumButtons.forEach(button => {
+  const { id, soundId } = button;
+  const buttonElement = document.getElementById(id);
+
+  buttonElement.addEventListener('click', () => {
+      playSound(soundId);
+  });
+});
+
+// Add keyboard event listener
+document.addEventListener('keydown', (event) => {
+  const { key } = event;
+  
+  // Find corresponding drum button and play sound
+  const button = drumButtons.find(btn => btn.key === key.toLowerCase());
+  
+  if (button) {
+      playSound(button.soundId);
+  }
+});
+
+###

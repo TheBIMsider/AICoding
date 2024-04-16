@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 100vh;
+  margin: 0;
+  background-color: #c0c0c0; /* Different background color for the page */
+  padding-top: 20px; /* Add padding to the top of the page */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* Container background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+  margin-top: 20px; /* Push the container to the top with a margin */
+}
+
+#drumHeader {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.drumButton {
+  padding: 20px 40px;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 10px; /* Add margin around the buttons */
+  width: calc(33% - 10px); /* Approximately one-third width for each button with margin */
+  text-align: center; /* Center text horizontally */
+}
+
+button {
+  border: none; /* Remove default button border */
+  background-color: #007BFF; /* Button background color */
+  color: white; /* Button text color */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.drumRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px; /* Space between rows */
+}
+

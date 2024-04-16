@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Container for Header and Buttons -->
+    <div class="container">
+        <!-- Drumtastic-9000 Header -->
+        <h1 id="drumHeader">Drumtastic-9000</h1>
+
+        <!-- Drum Buttons Rows -->
+        <div class="drumRow">
+            <button class="drumButton" id="kickButton">Kick (A)</button>
+            <button class="drumButton" id="rideButton">Ride (S)</button>
+            <button class="drumButton" id="boomButton">Boom (D)</button>
+        </div>
+        <div class="drumRow">
+            <button class="drumButton" id="clapButton">Clap (Q)</button>
+            <button class="drumButton" id="hihatButton">Hi-Hat (W)</button>
+            <button class="drumButton" id="openhatButton">Open-Hat (E)</button>
+        </div>
+        <div class="drumRow">
+            <button class="drumButton" id="snareButton">Snare (Z)</button>
+            <button class="drumButton" id="tinkButton">Tink (X)</button>
+            <button class="drumButton" id="tomButton">Tom (C)</button>
+        </div>
+    </div>
+
+    <!-- Audio Elements for Drum Sounds -->
+    <audio id="kickSound">
+        <source src="sounds/kick.wav" type="audio/wav">
+    </audio>
+    <audio id="rideSound">
+        <source src="sounds/ride.wav" type="audio/wav">
+    </audio>
+    <audio id="boomSound">
+        <source src="sounds/boom.wav" type="audio/wav">
+    </audio>
+    <audio id="clapSound">
+        <source src="sounds/clap.wav" type="audio/wav">
+    </audio>
+    <audio id="hihatSound">
+        <source src="sounds/hihat.wav" type="audio/wav">
+    </audio>
+    <audio id="openhatSound">
+        <source src="sounds/openhat.wav" type="audio/wav">
+    </audio>
+    <audio id="snareSound">
+        <source src="sounds/snare.wav" type="audio/wav">
+    </audio>
+    <audio id="tinkSound">
+        <source src="sounds/tink.wav" type="audio/wav">
+    </audio>
+    <audio id="tomSound">
+        <source src="sounds/tom.wav" type="audio/wav">
+    </audio>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
