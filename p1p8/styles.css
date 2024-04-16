@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #264653;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e9c46a;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: #e9c46a;
+    font-family: Arial, sans-serif;
+}
+
+.icon {
+    font-size: 40px;
+    display: block;
+}
+
+#app {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    color: #e9c46a;
+}
+
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e76f51;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover,
+button:active {
+    background-color: #c65a3f;
+}
+
+p#finalPrice {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
