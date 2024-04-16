@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake Raffle</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="header">
+      <h1><i class="material-icons">cake</i> Cake Raffle <i class="material-icons">cake</i></h1>
+    </section>
+    <section class="container">
+      <section class="participant-form">
+        <form id="raffle-form">
+          <label for="name">Enter your name:</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+          <button type="submit" class="enter-btn">Add Participant</button>
+        </form>
+      </section>
+      <section class="participant-list">
+        <h3>Who's In:</h3>
+        <div id="participants"></div>
+      </section>
+      <section class="winner-button">
+        <section class="winner-display" id="winner"></section>
+        <button id="draw-btn" class="draw-btn">Draw Winner</button>
+        <button id="reset-btn" class="reset-btn">Reset</button>
+      </section>      
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

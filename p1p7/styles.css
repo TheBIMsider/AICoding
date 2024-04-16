@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+  background-color: #ff4081;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+/* Container Styles */
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Entry Form Styles */
+.participant-form {
+  margin-top: 20px;
+}
+
+.participant-form h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Participants List Styles */
+.participant-list {
+  margin-top: 20px;
+}
+
+.participant-list h2 {
+  color: #333;
+}
+
+/* Winner Display Area Styles */
+.winner-display {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.winner-display.visible {
+  display: block;
+}
+
+.winner-display h2 {
+  color: #333;
+}
+
+.winner-button {
+  display: flex;
+  gap: 10px;
+}
+
+/* Input and Button Styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enter-btn,
+.draw-btn {
+  background-color: #ff4081;
+}
+
+.enter-btn:hover,
+.draw-btn:hover {
+  background-color: #d81b60; /* Lighter shade when hovered */
+}
+
+.reset-btn {
+  background-color: #007bff;
+}
+
+.reset-btn:hover {
+  background-color: #1367c0;
+}
+
+/* Disabled Button Styles */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Material Icons Styles (optional) */
+.material-icons {
+  vertical-align: middle;
+}
+
