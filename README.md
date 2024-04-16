@@ -14,7 +14,7 @@ p1p4 [Subscription Form](https://thebimsider.github.io/AICoding/p1p4/)
 p1p5 [JS Welcome Message](https://thebimsider.github.io/AICoding/p1p5/)     
 p1p6 [GIF Gala Invite](https://thebimsider.github.io/AICoding/p1p6/)    
 p1p7 [Cake Raffle App](https://thebimsider.github.io/AICoding/p1p7/)    
-p1p8 [ReelRewards App](https://thebimsider.github.io/AICoding/p1p8/) This was a debugging lesson. We had the app to start and we imrpoved its function and overall code with help from ChatGPT (P.S. the promo code is HALF)
+p1p8 [ReelRewards App](https://thebimsider.github.io/AICoding/p1p8/) This was a debugging lesson. We had the app to start and we improved its function and overall code with help from ChatGPT (P.S. the promo code is HALF)
 
 **Phase 2️⃣**
 
