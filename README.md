@@ -14,6 +14,8 @@ p1p4 [Subscription Form](https://thebimsider.github.io/AICoding/p1p4/)
 p1p5 [JS Welcome Message](https://thebimsider.github.io/AICoding/p1p5/)     
 p1p6 [GIF Gala Invite](https://thebimsider.github.io/AICoding/p1p6/)    
 p1p7 [Cake Raffle App](https://thebimsider.github.io/AICoding/p1p7/)    
+p1p8 [ReelRewards App](https://thebimsider.github.io/AICoding/p1p8/) This was a debugging lesson, we had the app and imrpoved ifs function and overall code with help from ChatGPT   
+
 
 **Phase 2️⃣**
 
