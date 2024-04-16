@@ -12,7 +12,8 @@ p1p2 [Login Buttons](https://thebimsider.github.io/AICoding/p1p2/)
 p1p3 [Hero Section](https://thebimsider.github.io/AICoding/p1p3/)   
 p1p4 [Subscription Form](https://thebimsider.github.io/AICoding/p1p4/)    
 p1p5 [JS Welcome Message](https://thebimsider.github.io/AICoding/p1p5/)     
-p1p6 [GIF Gala Invite](https://thebimsider.github.io/AICoding/p1p6/)
+p1p6 [GIF Gala Invite](https://thebimsider.github.io/AICoding/p1p6/)    
+p1p7 [Cake Raffle App](https://thebimsider.github.io/AICoding/p1p7/)    
 
 **Phase 2️⃣**
 
