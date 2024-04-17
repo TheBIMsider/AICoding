@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FaceBomp Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🤕 FaceBomp 👊</h1>
+
+      <button id="startBtn">Start Game</button>
+
+      <p id="score">Score: 0</p>
+
+      <div id="timer">Time: <span id="time">30</span> seconds</div>
+
+      <div id="gameBoard">
+        <div class="hole">
+          <img src="photo.png" alt="Whack-A-Face Game Image" />
+        </div>
+        <div class="hole">
+          <img src="photo.png" alt="Whack-A-Face Game Image" />
+        </div>
+        <div class="hole">
+          <img src="photo.png" alt="Whack-A-Face Game Image" />
+        </div>
+        <div class="hole">
+          <img src="photo.png" alt="Whack-A-Face Game Image" />
+        </div>
+        <div class="hole">
+          <img src="photo.png" alt="Whack-A-Face Game Image" />
+        </div>
+        <div class="hole">
+          <img src="photo.png" alt="Whack-A-Face Game Image" />
+        </div>
+      </div>
+
+      <p id="finalMessage"></p>
+
+      <!-- Embedding sound effects -->
+      <audio id="bompSound">
+        <source src="sounds/bomp.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <audio id="gameEndSound">
+        <source src="sounds/game-end.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <audio id="gameEndHighSound">
+        <source src="sounds/game-end_high.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
