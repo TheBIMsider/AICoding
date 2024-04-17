@@ -85,3 +85,49 @@ button:hover {
   margin-top: 20px;
   font-size: 1.2em;
 }
+
+/* Responsive design */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  button {
+    font-size: 1.2em;
+    padding: 15px 25px;
+  }
+
+  #score, #timer, #finalMessage {
+    font-size: 1.5em;
+  }
+
+  #gameBoard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hole {
+    width: 150px;
+    height: 150px;
+  }
+
+  .hole img {
+    width: 70%;
+    height: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #gameBoard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hole {
+    width: 175px;
+    height: 175px;
+  }
+
+  .hole img {
+    width: 55%;
+    height: 55%;
+  }
+}
