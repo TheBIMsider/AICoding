@@ -6,7 +6,8 @@ In this course you build interactive, database-powered projects while learning h
 
 I will store my projects from the 3 phases of this course below 👇 
 
-**Phase 1️⃣**
+**Phase 1️⃣** 
+Build and deploy your first projects with ChatGPT
 
 p1p1 [AI Generated Web Page](https://thebimsider.github.io/AICoding/p1p1/)   
 p1p2 [Login Buttons](https://thebimsider.github.io/AICoding/p1p2/)   
@@ -19,5 +20,9 @@ p1p8 [ReelRewards App](https://thebimsider.github.io/AICoding/p1p8/) This was a 
 p1p9 [Drumtastic-9000 App](https://thebimsider.github.io/AICoding/p1p9/)    
 
 **Phase 2️⃣**
+Build games. mobile apps, and browser extentions with AI
+
+p2p1 [FaceBomp](https://thebimsider.github.io/AICoding/p2p1/)   
 
 **Phase 3️⃣**
+Build database powered projects with AI
