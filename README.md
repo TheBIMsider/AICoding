@@ -21,5 +21,7 @@ p1p9 [Drumtastic-9000 App](https://thebimsider.github.io/AICoding/p1p9/)
 **Phase 2️⃣** Build games. mobile apps, and browser extentions with AI
 
 p2p1 [FaceBomp](https://thebimsider.github.io/AICoding/p2p1/)   
+p2p2 [Project Slideshow](https://thebimsider.github.io/AICoding/p2p2/)   
+
 
 **Phase 3️⃣** Build database powered projects with AI
