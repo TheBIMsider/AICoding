@@ -22,6 +22,7 @@ p1p9 [Drumtastic-9000 App](https://thebimsider.github.io/AICoding/p1p9/)
 
 p2p1 [FaceBomp](https://thebimsider.github.io/AICoding/p2p1/)   
 p2p2 [Project Slideshow](https://thebimsider.github.io/AICoding/p2p2/)   
+p2p3 [Personal Homepage](https://thebimsider.github.io/AICoding/p2p3/)     
 
 
 **Phase 3️⃣** Build database powered projects with AI
