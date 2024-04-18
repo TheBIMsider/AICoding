@@ -131,3 +131,24 @@ button:hover {
     height: 55%;
   }
 }
+
+/* Add styles for control buttons */
+#controls {
+  margin-bottom: 20px;
+}
+
+#controls button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+  background-color: #003a80;
+}
