@@ -1,0 +1,104 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow Container */
+.slideshow-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+/* Slides */
+.slide {
+  display: none;
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Fade Animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {
+      opacity: 0.4;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  bottom: 0; /* Positioned at the bottom */
+  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent */
+  color: white;
+  width: 100%;
+  padding: 20px 10px; /* Increased vertical padding */
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.overlay-content {
+  position: relative;
+  top: 50%; /* Move content up by half of its height */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.overlay h2,
+.overlay h3,
+.overlay p {
+  margin: 0;
+  font-weight: bold; /* Make headings bold */
+}
+
+.overlay h2 {
+  font-size: 1.5em; /* Larger font size for h2 */
+  margin-bottom: 5px; /* Space between h2 and h3 */
+}
+
+.overlay h3 {
+  font-size: 1.2em; /* Font size for h3 */
+  margin-bottom: 10px; /* Space between h3 and p */
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 1em; /* Standard font size for p */
+  opacity: 0.8; /* 80% opacity */
+  margin: 0;
+}
+
+/* Dots Navigation */
+.dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #717171;
+}

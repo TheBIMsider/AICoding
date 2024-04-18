@@ -1,0 +1,163 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Set a background color */
+body {
+  background-color: #ffffff; /* white background */
+  color: #000000; /* black text */
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #000000; /* black background */
+  color: #ffffff; /* white text */
+  padding: 20px 0;
+  text-align: center; /* center-align text */
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #ffffff; /* white text */
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: text-decoration 0.3s ease; /* smooth transition */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* underline on hover */
+}
+
+/* About Section */
+.profile-picture img {
+  width: 150px; /* adjust size as needed */
+  height: 150px; /* adjust size as needed */
+  border-radius: 50%; /* rounded shape */
+  margin-bottom: 20px;
+}
+
+#about {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ededed;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  margin-bottom: 20px;
+}
+
+.resume-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.resume-link a {
+  color: #000000; /* black text */
+  text-decoration: none;
+  border: 1px solid #000000; /* black border */
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.resume-link a:hover {
+  background-color: #000000; /* black background on hover */
+  color: #ffffff; /* white text on hover */
+}
+
+/* Skills Section */
+.skill {
+  margin-bottom: 30px;
+}
+
+.skill h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  background-color: #e0e0e0; /* light gray background */
+  height: 20px;
+  border-radius: 5px;
+  position: relative; /* added for positioning the progress text */
+}
+
+.progress {
+  background-color: #000000; /* black progress bar */
+  height: 100%;
+  border-radius: 5px;
+  position: absolute; /* added for positioning the progress text */
+  top: 0;
+  left: 0;
+  color: #ffffff; /* white text */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress span {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Footer */
+footer {
+  background-color: #000000; /* black background */
+  color: #ffffff; /* white text */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-media a {
+  color: #ffffff; /* white text */
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+
+.social-media a:hover {
+  color: #e0e0e0; /* light gray text on hover */
+}
