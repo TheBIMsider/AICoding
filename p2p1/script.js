@@ -15,7 +15,7 @@ let isGameActive = false;
 
 // Function to update the score display
 function updateScore() {
-    scoreDisplay.textContent = score;
+    scoreDisplay.textContent = "Score: " + score;
 }
 
 // Function to update the timer display
