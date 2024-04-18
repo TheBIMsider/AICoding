@@ -91,10 +91,10 @@ function endGame() {
     }
 
     // Display final message
-    if (score <= 6) {
+    if (score <= 9) {
         finalMessage.textContent = "Well that was embarrassing";
         playGameEndSound(false); // Play regular end sound
-    } else if (score > 6 && score < 19) {
+    } else if (score > 10 && score < 29) {
         finalMessage.textContent = "Not bad, but you can do better! Try again!";
         playGameEndSound(false); // Play regular end sound
     } else {
