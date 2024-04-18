@@ -77,10 +77,10 @@ function endGame() {
     startBtn.textContent = "Start Game";
 
     // Display final message
-    if (score === 0) {
+    if (score <= 6) {
       finalMessage.textContent = "Well that was embarrassing";
       playGameEndSound(false); // Play regular end sound
-    } else if (score > 0 && score < 11) {
+    } else if (score > 6 && score < 19) {
         finalMessage.textContent = "Not bad, but you can do better! Try again!"; 
         playGameEndSound(false); // Play regular end sound
     } else {
@@ -138,7 +138,7 @@ function showRandomImage() {
         if (isGameActive) {
             showRandomImage();
         }
-    }, Math.random() * 2000 + 1000); // Random delay between 1 to 3 seconds
+    }, Math.random() * (1500 - 500) + 500); // Random delay between 0.5  to 1.5 seconds
 }
 
 // Event listener for image click
