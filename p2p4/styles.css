@@ -1,0 +1,142 @@
+/* Reset some default browser styles */
+body, h1, h2, span {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Global styles */
+body {
+  background-color: #28074a; /* Dark purple background */
+  color: #fff; /* White text */
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #bd4de5; /* Purple header background */
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #491088, #6c1dd0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 20px; /* Increased space between title and buttons */
+}
+
+/* Button and Toggle Switch styles */
+button, .toggle-switch {
+  margin: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff19db; /* Pink button background */
+  color: #fff; /* White text */
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff7f1a; /* Orange hover background */
+}
+
+button:active {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Soft glow effect when clicked */
+}
+
+.temperature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temperature #current-temp {
+  font-size: 1.75em;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+/* Toggle Switch styles */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 120px; /* Adjusted width */
+  height: 34px;
+}
+
+.toggle-switch input {
+  display: none;
+}
+
+.toggle-switch label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #ff19db; /* Default button background when off */
+  border-radius: 34px;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-switch input:checked + label {
+  background-color: #ff7f1a; /* Orange hover background when on */
+}
+
+.toggle-switch label:after {
+  content: '';
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #fff; /* White circle */
+  top: 50%;
+  transform: translateY(-50%);
+  left: 4px;
+  transition: left 0.3s ease;
+}
+
+.toggle-switch input:checked + label:after {
+  left: calc(100% - 30px);
+}
+
+/* Music Section styles */
+.music-controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.song-info {
+  text-align: center;
+}
+
+#song-name {
+  font-size: 1.2em; /* Updated font size to H3 */
+  margin-top: 10px;
+  color: #fff; /* White color for song name */
+}
+
