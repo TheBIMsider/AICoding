@@ -1,71 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VirtuHaven 9000</title>
-    <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
+    <link rel="manifest" href="manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1><i class="fas fa-home"></i> VirtuHaven 9000 </h1>
-        <button id="install-button" style="display:none;">Install App</button>
+      <h1><i class="fas fa-home"></i> VirtuHaven 9000</h1>
+      <button id="install-button" style="display: none">Install App</button>
     </header>
 
     <main>
+      <!-- Lighting Section -->
+      <section id="lighting-section">
+        <h2><i class="fas fa-lightbulb"></i> Lighting</h2>
+        <div class="toggle-switch">
+          <input type="checkbox" id="light-switch" class="switch" />
+          <label for="light-switch"></label>
+        </div>
+      </section>
 
-        <!-- Lighting Section -->
-        <section id="lighting-section">
-            <h2><i class="fas fa-lightbulb"></i> Lighting</h2>
-            <div class="toggle-switch">
-                <input type="checkbox" id="light-switch" class="switch">
-                <label for="light-switch"></label>
-            </div>
-        </section>
+      <!-- Temperature Section -->
+      <section id="temperature-section">
+        <h2><i class="fas fa-thermometer-half"></i> Temperature</h2>
+        <div class="temperature">
+          <span id="current-temp">78°F</span>
+        </div>
+        <div class="temperature-buttons">
+          <button id="decrease-temp">
+            <i class="fas fa-minus"></i> Decrease
+          </button>
+          <button id="increase-temp">
+            <i class="fas fa-plus"></i> Increase
+          </button>
+        </div>
+      </section>
 
-        <!-- Temperature Section -->
-        <section id="temperature-section">
-            <h2><i class="fas fa-thermometer-half"></i> Temperature</h2>
-            <div class="temperature">
-                <span id="current-temp">78°F</span>
-            </div>
-            <div class="temperature-buttons">
-                <button id="decrease-temp"><i class="fas fa-minus"></i> Decrease </button>
-                <button id="increase-temp"><i class="fas fa-plus"></i> Increase </button>
-            </div>
-        </section>
-
-        <!-- Music Section -->
-        <section id="music-section">
-            <h2><i class="fas fa-music"></i> Music</h2>
-            <div class="song-info">
-                <h3 id="song-name">Click Play to Start</h3>
-            </div>
-            <div class="music-controls">
-                <button id="play-pause-music"><i class="fas fa-play"></i> Play </button>
-                <button id="stop-music"><i class="fas fa-stop"></i> Stop </button>
-                <button id="next-track"><i class="fas fa-forward"></i> Next </button>
-            </div>
-        </section>
-
+      <!-- Music Section -->
+      <section id="music-section">
+        <h2><i class="fas fa-music"></i> Music</h2>
+        <div class="song-info">
+          <h3 id="song-name">Click Play to Start</h3>
+        </div>
+        <div class="music-controls">
+          <button id="play-pause-music">
+            <i class="fas fa-play"></i> Play
+          </button>
+          <button id="stop-music"><i class="fas fa-stop"></i> Stop</button>
+          <button id="next-track"><i class="fas fa-forward"></i> Next</button>
+        </div>
+      </section>
     </main>
     <script src="script.js"></script>
     <script>
-      if (navigator.serviceWorker) {
-          navigator.serviceWorker.register('/AICoding/p2p4/sw.js', { scope: '/AICoding/p2p4/' })
-          .then(function(registration) {
-              console.log('Service Worker registered with scope:', registration.scope);
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/AICoding/p2p4/service-worker.js", {
+            scope: "/AICoding/p2p4/",
           })
-          .catch(function(error) {
-              console.log('Service Worker registration failed:', error);
+          .then(function (registration) {
+            console.log(
+              "Service Worker registered with scope:",
+              registration.scope
+            );
+          })
+          .catch(function (error) {
+            console.log("Service Worker registration failed:", error);
           });
       }
-  </script>
-  
-</body>
+    </script>
+  </body>
 </html>
-
-
