@@ -7,14 +7,14 @@ body, h1, h2, span {
 
 /* Global styles */
 body {
-  background-color: #28074a; /* Dark purple background */
-  color: #fff; /* White text */
+  background-color: #28074a;
+  color: #fff;
   font-size: 16px;
   line-height: 1.5;
 }
 
 header {
-  background-color: #bd4de5; /* Purple header background */
+  background-color: #bd4de5;
   padding: 15px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -40,7 +40,7 @@ section {
 
 h2 {
   font-size: 1.2em;
-  margin-bottom: 20px; /* Increased space between title and buttons */
+  margin-bottom: 20px;
 }
 
 /* Button and Toggle Switch styles */
@@ -52,19 +52,19 @@ button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #ff19db; /* Pink button background */
-  color: #fff; /* White text */
+  background-color: #ff19db;
+  color: #fff;
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
-  background-color: #ff7f1a; /* Orange hover background */
+  background-color: #ff7f1a;
 }
 
 button:active {
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Soft glow effect when clicked */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .temperature {
@@ -83,7 +83,7 @@ button:active {
 .toggle-switch {
   position: relative;
   display: inline-block;
-  width: 120px; /* Adjusted width */
+  width: 120px;
   height: 34px;
 }
 
@@ -95,7 +95,7 @@ button:active {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: #ff19db; /* Default button background when off */
+  background-color: #ff19db;
   border-radius: 34px;
   cursor: pointer;
   position: relative;
@@ -103,7 +103,7 @@ button:active {
 }
 
 .toggle-switch input:checked + label {
-  background-color: #ff7f1a; /* Orange hover background when on */
+  background-color: #ff7f1a;
 }
 
 .toggle-switch label:after {
@@ -112,7 +112,7 @@ button:active {
   width: 26px;
   height: 26px;
   border-radius: 50%;
-  background-color: #fff; /* White circle */
+  background-color: #fff;
   top: 50%;
   transform: translateY(-50%);
   left: 4px;
@@ -135,8 +135,77 @@ button:active {
 }
 
 #song-name {
-  font-size: 1.2em; /* Updated font size to H3 */
+  font-size: 1.2em;
   margin-top: 10px;
-  color: #fff; /* White color for song name */
+  color: #fff;
 }
 
+/* Media Queries */
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+
+  .toggle-switch input[type="checkbox"] + label {
+    width: 50px;
+    height: 30px;
+  }
+
+  .toggle-switch input[type="checkbox"] + label:after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    padding: 15px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.3em;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+
+  .toggle-switch input[type="checkbox"] + label {
+    width: 60px;
+    height: 35px;
+  }
+
+  .toggle-switch input[type="checkbox"] + label:after {
+    width: 28px;
+    height: 28px;
+  }
+}
