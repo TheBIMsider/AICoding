@@ -52,9 +52,19 @@
         </section>
 
     </main>
-
     <script src="script.js"></script>
-
+    <script>
+      if (navigator.serviceWorker) {
+          navigator.serviceWorker.register('/AICoding/p2p4/sw.js', { scope: '/AICoding/p2p4/' })
+          .then(function(registration) {
+              console.log('Service Worker registered with scope:', registration.scope);
+          })
+          .catch(function(error) {
+              console.log('Service Worker registration failed:', error);
+          });
+      }
+  </script>
+  
 </body>
 </html>
 
