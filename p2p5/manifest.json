@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Shopping List",
+  "name": "SnapStash",
   "version": "1.0",
   "description": "Save and categorize shopping items",
   "permissions": ["activeTab", "storage"],
