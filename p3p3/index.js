@@ -3,7 +3,7 @@ import { getDatabase, ref, push, get } from "https://www.gstatic.com/firebasejs/
 
 // Firebase configuration
 const firebaseConfig = {
-  databaseURL: "https://compliment-generator-b766e-default-rtdb.firebaseio.com/"
+  databaseURL: "Your Firebase Key here"
 };
 
 // Initialize Firebase
