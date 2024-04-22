@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Compliment Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                <span class="icon material-symbols-outlined">person_celebrate</span>
+                KudosDelight
+            </h1>
+            <p class="display" id="compliment-display"></p>
+            <button id="generateButton">Generate a Kudo</button>
+            <button class="btn-secondary" id="toggleFormButton">Add Kudos</button>
+            <p id="successMessage" style="display: none">Kudo added successfully!</p>
+            <form id="complimentForm" class="hidden">
+                <label for="complimentInput">Write a Kudo:</label>
+                <input type="text" id="complimentInput">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
