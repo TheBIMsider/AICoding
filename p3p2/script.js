@@ -4,7 +4,7 @@ import { getDatabase, ref, push, onValue } from "https://www.gstatic.com/firebas
 
 // Initialize Firebase app with your settings
 const appSettings = {
-  databaseURL: "https://gif-gala-da640-default-rtdb.firebaseio.com/"
+  databaseURL: "Your Firebase Key Here"
 }
 const app = initializeApp(appSettings);
 const database = getDatabase(app);
