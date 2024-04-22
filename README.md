@@ -30,4 +30,5 @@ p2p5 [SnapStash Chrome Extention](https://thebimsider.github.io/AICoding/p2p5/)
 
 p3p1 [My First Firebase Database](https://thebimsider.github.io/AICoding/p3p1/) - You need a Firebase Key    
 p3p2 [GIF Gala with Firebase](https://thebimsider.github.io/AICoding/p3p2/) - You need a Firebase Key        
+p3p3 [Kudos Delight](https://thebimsider.github.io/AICoding/p3p3/) - You need a Firebase Key        
 
