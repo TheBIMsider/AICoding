@@ -3,7 +3,7 @@ import { getDatabase, ref, push, onValue } from "https://www.gstatic.com/firebas
 
 // Your web app's Firebase configuration. You will get this when you create a new Firebase project.
 const firebaseConfig = {
-  databaseURL: "https://first-database-38499-default-rtdb.firebaseio.com/",
+  databaseURL: "Your firebase key here",
 }
 
 // Your web app's Firebase configuration
