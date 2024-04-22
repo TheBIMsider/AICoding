@@ -26,5 +26,7 @@ p2p3 [Personal Homepage](https://thebimsider.github.io/AICoding/p2p3/)
 p2p4 [Smart Home App](https://thebimsider.github.io/AICoding/p2p4/)     
 p2p5 [SnapStash Chrome Extention](https://thebimsider.github.io/AICoding/p2p5/)     
 
-
 **Phase 3️⃣** Build database powered projects with AI
+
+p3p1 [My First Firebase Database](https://thebimsider.github.io/AICoding/p3p1/)     
+
