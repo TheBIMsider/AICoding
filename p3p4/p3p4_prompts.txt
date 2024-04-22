@@ -21,3 +21,7 @@ Please add detailed comments to the new code to help me understand it.
 
 ## Allow only 1 vote
 Add the code to allow a user only to vote once. Users should also be able to change their vote.
+
+
+## Delete poll
+Add a "Delete poll" button at the bottom, which clears the database and resets the poll. Display the delete button only after a poll gets created.
