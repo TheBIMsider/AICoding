@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Shopping List",
+  "version": "1.0",
+  "description": "Save and categorize shopping items",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "128": "images/icon128.png"
+  }
+}

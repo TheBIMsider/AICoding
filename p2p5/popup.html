@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping List</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <h1>SnapStash</h1>
+
+    <!-- Item preview section -->
+    <div id="itemPreview"></div>
+    <div class="controls">
+  <select id="category">
+    <option value="" disabled selected>Select a category</option>
+    <option value="Books">Books</option>
+    <option value="Clothes">Clothes</option>
+    <option value="Shoes">Shoes</option>
+    <option value="Electronics">Electronics</option>
+    <option value="Pets">Pets</option>
+    <option value="Health">Health</option>
+    <option value="Sports">Sports</option> <!-- Added Sports -->
+    <option value="Groceries">Groceries</option> <!-- Added Groceries -->
+  </select>
+
+  <button id="saveItem">Save Item</button>
+</div>
+  <!-- Separate lists based on category -->
+  <div id="lists"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
