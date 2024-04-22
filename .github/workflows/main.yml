@@ -1,2 +1,0 @@
-secrets:
-  MY_GIF_GALA_FB: ${{ https://gif-gala-da640-default-rtdb.firebaseio.com/ }}
