@@ -3,7 +3,7 @@ import { getDatabase, ref, push, onValue, update, set } from "https://www.gstati
 
 // Firebase configuration
 const firebaseConfig = {
-  databaseURL: "https://lunch-vote-2fafe-default-rtdb.firebaseio.com/"
+  databaseURL: "Your Firebase Key Here"
 };
 
 // Initialize Firebase app
