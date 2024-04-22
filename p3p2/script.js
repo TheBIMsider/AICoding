@@ -4,7 +4,7 @@ import { getDatabase, ref, push, onValue } from "https://www.gstatic.com/firebas
 
 // Initialize Firebase app with your settings
 const appSettings = {
-  databaseURL: "${{ env.GIF_GALA_FB }}"
+  databaseURL: ${{ env.GIF_GALA_FB }}
 }
 const app = initializeApp(appSettings);
 const database = getDatabase(app);
