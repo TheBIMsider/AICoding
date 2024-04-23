@@ -3,7 +3,7 @@ import { getDatabase, ref, push, onValue, set, remove } from "https://www.gstati
 
 // Firebase configuration
 const firebaseConfig = {
-  databaseURL: "https://roadwallet-ca339-default-rtdb.firebaseio.com/"
+  databaseURL: "Your Firebase Key Here"
 };
 
 const app = initializeApp(firebaseConfig)
