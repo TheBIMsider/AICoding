@@ -1,6 +1,6 @@
 # Learn to code with AI
 
-A repository for my adventures with the free [scrimba](https://scrimba.com) online course [Learning to code with AI](https://scrimba.com/learn/aicoding)
+A repository for my adventures with the free [Scrimba](https://scrimba.com) online course [Learning to code with AI](https://scrimba.com/learn/aicoding)
 
 In this course you build interactive, database-powered projects while learning how to write effective prompts and debug and refine your code with the help of AI. No coding experience needed!
 
